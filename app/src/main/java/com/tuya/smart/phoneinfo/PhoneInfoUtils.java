@@ -27,7 +27,7 @@ public class PhoneInfoUtils {
         telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
     }
 
-    //获取sim卡iccid
+    //获取sim卡iccidiik
     public String getIccid() {
         String iccid = "N/A";
         iccid = telephonyManager.getSimSerialNumber();
